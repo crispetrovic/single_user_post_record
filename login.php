@@ -1,11 +1,11 @@
-<?php 
+<?php
         session_start();
         ob_start();
 
         require_once 'meekrodb.2.3.class.php';
-        DB::$user = 'root';
-        DB::$password = 'crissa';
-        DB::$dbName = 'microBlog';
+        DB::$user = '';
+        DB::$password = '';
+        DB::$dbName = '';
 
         $username = $_POST['username'];
         $password = $_POST['password'];

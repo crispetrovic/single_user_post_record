@@ -1,8 +1,8 @@
 <?php
         require_once 'meekrodb.2.3.class.php';
-        DB::$user = 'root';
-        DB::$password = 'crissa';
-        DB::$dbName = 'microBlog';
+        DB::$user = '';
+        DB::$password = '';
+        DB::$dbName = '';
 
 
         // throws out error messages if user does something wrong
@@ -16,7 +16,7 @@
                 'username' => $username,
                 'password' => $hash
         ));
-        
+
         $_SESSION['loggedin'] = 1;
         header('Location: index.php');
 

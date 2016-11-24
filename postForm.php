@@ -4,9 +4,9 @@
 
 
     require_once 'meekrodb.2.3.class.php';
-    DB::$user = 'root';
-    DB::$password = 'crissa';
-    DB::$dbName = 'microBlog';
+    DB::$user = '';
+    DB::$password = '';
+    DB::$dbName = '';
     // throws out error messages if user does something wrong
     DB::debugMode();
 
